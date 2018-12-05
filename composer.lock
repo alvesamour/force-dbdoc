@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "76b63bcdb5fab030ae3123b6cab6624c",
+    "content-hash": "a25991eb9992defbeb7ca172afc47a23",
     "packages": [
         {
             "name": "psr/container",
@@ -743,8 +743,7 @@
     "stability-flags": {
         "symfony/http-kernel": 20,
         "symfony/config": 20,
-        "symfony/dependency-injection": 20,
-        "symfony/http-foundation": 20
+        "symfony/dependency-injection": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
