@@ -15,6 +15,7 @@ class Configuration implements ConfigurationInterface
                 ->isRequired()
             ->end()    
           ->end();
+        return $builder;
     }
 
 }
