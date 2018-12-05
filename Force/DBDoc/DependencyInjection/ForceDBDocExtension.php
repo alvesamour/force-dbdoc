@@ -21,7 +21,7 @@ class ForceDBDocExtension extends Extension
         $loader->load('services.yaml');    
         
         $definition = $container->getDefinition(DocumentorController::class);
-        $definition->addMethodCall('setContent', [config['return_content']]);
+        $definition->addMethodCall('setContent', [$config['return_content']]);
     }
 }
 
